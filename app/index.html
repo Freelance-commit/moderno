@@ -54,7 +54,34 @@
         </div>
     </header>
 
+    <!-- ПОШУК -->
+    
+    <section class="search" style="background-image: url(images/serch-bg.jpg);">
+        <!-- Фонове зображення краще вставити інлайново, щоб з адмінки можна змінювати картинку -->
+        <div class="container">
+            <div class="search__inner">
+                <div class="search__inner-title">
+                    Welcome To Foxtar Market Place!
+                </div>
+                <div class="search__inner-text">
+                    Premium WordPress Themes, Web Templates and Many More ...
+                </div>
+                <div class="search__inner-form">
+                    <form>
+                        <!-- input з type="text" для пошуку: placeholder (в ньомк пишемо підказку)
+                    required (облв'язковий для відправки)-->
+                        <input type="text" placeholder="Search Your Keywords . . ." required>
+                        <!-- Щоб можна відправити потрібно записати: -->
+                        <button type="submit">
+                            <img src="images/icons/search.png" alt="Search">
+                        </button>
 
+                        <!-- З input i textarea псевдоелементи не працюють -->
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="js/libs.min.js"></script>
