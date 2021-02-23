@@ -798,11 +798,15 @@
 .footer__copy{
     border-top: 1px solid #424d53;
 }
-.footer__copy-text{
+.footer__copy-text,
+.footer__copy-link{
     text-align: center;
     font-size: 15px;
     color: #919699;
     padding: 25px 0 30px;
+}
+.footer__copy-link{
+    display: block;
 }
 .footer__col{
     max-width: 270px;
